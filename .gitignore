@@ -1,0 +1,13 @@
+Win32/
+build/
+*.identcache
+*.stat
+
+*.tvsconfig
+*__history
+*.dcu
+
+*.res
+*.dproj
+*.dproj.local
+*.skincfg
