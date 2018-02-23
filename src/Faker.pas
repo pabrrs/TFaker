@@ -113,7 +113,7 @@ type
       'twezzers', 'rug', 'key chain', 'clay pot', 'deodorant', 'monitor', 'video games', 'pool stick', 'shovel', 'window', 'bed');
 
     OTAN_ALPHABET: array [0 .. 25] of string = ('Alpha', 'Bravo', 'Charlie', 'Delta', 'Echo', 'Foxtrot', 'Golf', 'Hotel', 'India', 'Juliet',
-      'Kilo', 'Lima', 'Mike', 'November', 'Oscar', 'Papa', 'Quebec', 'Romeo', 'Sierra', 'Tango', 'Uniform', 'Victor', 'Whiskey', 'X-ray',
+      'Kilo', 'Lima', 'Mike', 'November', 'Oscar', 'Papa', 'Quebec', 'Romeo', 'Sierra', 'Tango', 'Uniform', 'Victor', 'Whiskey', 'Xray',
       'Yankee', 'Zulu');
 
     WORDS: array [0 .. 1000] of string = ('bite', 'mate', 'quill', 'back', 'church', 'pear', 'knit', 'bent', 'wrench', 'crack', 'heavenly',
@@ -321,7 +321,6 @@ begin
 
   _words.Delete(countWords - 1);
   result := _words.text;
-
 end;
 
 end.

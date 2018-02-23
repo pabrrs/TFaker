@@ -43,7 +43,7 @@ First, you will need to download the file <a href="https://github.com/abekroenem
   // returns an completely random thing
 
   otan = TFaker.otan();
-  x_otan = TFaker.OTAN_ALPHABET[23]; // 23 index of 'X' ('X-ray')
+  x_otan = TFaker.OTAN_ALPHABET[23]; // 23 index of 'X' ('Xray')
   // returns an random otan Phonetic Alphabet member 
   // e.g 'Alpha', 'Quebec', 'Foxtrot'
   // or you can use directly indexing for otan alphabet, 
@@ -56,6 +56,9 @@ First, you will need to download the file <a href="https://github.com/abekroenem
   text = TFaker.text(200);
   // random text using TFaker.words() combination,
   // or a text with defined number of words
+
+  randomFromList = TFaker.randVal(['will', 'shall', 'not', 'bug'])
+  // returns an random item from list
 
 ```
 

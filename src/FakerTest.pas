@@ -105,7 +105,7 @@ const
   T = 19;
   O = 14;
 
-  _X = 'X-ray';
+  _X = 'Xray';
   _P = 'Papa';
   _T = 'Tango';
   _O = 'Oscar';
