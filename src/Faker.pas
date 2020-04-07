@@ -213,6 +213,7 @@ type
 
     class function word: string;
     class function text(wordsNumber: Integer = 0): string;
+    class function loremIpsum(): string;
 
   end;
 
@@ -321,6 +322,11 @@ begin
 
   _words.Delete(countWords - 1);
   result := _words.text;
+end;
+
+class function TFaker.loremIpsum: string;
+begin
+  result := TFaker.LOREM_IPSUM;
 end;
 
 end.
