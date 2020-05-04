@@ -93,7 +93,7 @@ end;
 procedure TFakerTest.TestLoremIpsum;
 begin
 
-  Check(Length(TFaker.LOREM_IPSUM) > 100);
+  Check(Length(TFaker.loremIpsum()) > 100);
 
 end;
 
